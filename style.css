@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+header{
+    background: url(./images/bg-hero-desktop.svg);
+    height: auto;
+    background-color: hsl(193, 100%, 96%);
+}
+h1, h2{
+    color: rgb(1, 1, 39);
+    font-size: 2.5rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    width: 200px;
+    height: auto;
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.cta-btn{
+    color: darkgrey;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px 20px;
+    float: right;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cta-btn:hover{
+    color: #2b1186;  
+    background-color: #a51e5f;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 90px;
+    padding-bottom: 24px; /* Add space between the content and the image */
+    padding-left: 60px; /* Add space from the left */
+}
+.hero-section p{
+    font-size: 14px;
+    margin-bottom: 31px;
+    line-height: 23px;
+    text-align: left;
+}
+.hero-section h2{
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    text-align: left;
+}
+.hero-section .hero-btn{
+    padding: 12px 50px;
+    color: #fff;
+    background-color:  hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 48px;
+}
+.hero-section .hero-btn:hover{
+    background-color: black;
+    color: #a51e5f;
+    transform: scale(1.1);
+}
+.hero-section .content {
+    flex: 1;
+    text-align: left; /* Ensure the text is aligned to the left */
+}
+.hero-section .illustration {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Align the image to the right */
+    padding-left: 40px;
+}
+
+.hero-section .illustration img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px; /* Add some space between the content and the image */
+}
+.main{
+        margin-top: 60px;
+        padding: 0%;
+        box-sizing: border-box;
+}
+.row-reverse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto 40px auto; /* Add space between sections */
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding-left: 60px; /* Add space from the left */
+
+}
+.row-reverse .content-section{
+    flex: 1;
+    max-width: auto; 
+    padding-right: 40px; /* Add space between content and image */
+    text-align: left;
+
+}
+.row-reverse .content-section h2{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+
+}
+.row-reverse .content-section p{
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+
+}
+.row-reverse .img-section{
+    flex: 1;
+    max-width: 50%;
+    text-align: right;
+    padding-left: 40px; /* Add space between content and image */
+
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding-left: 60px;
+}
+.row1 .content-section{
+    flex: 1;
+    max-width: auto;
+    padding-right: 40px; /* Add space between content and image */
+    text-align: right;
+    
+}
+.row1 .content-section h2{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 100px;
+}
+.row1 .content-section p{
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+    text-align: left;
+    padding-left: 90px;
+    margin-left: 10px;
+    
+  }
+  .row1 .img-section {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+    padding-left: 40px; /* Add space between content and image */
+}
+.row1 .img-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.row-reverse3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto 40px auto; /* Add space between sections */
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding-left: 60px; /* Add space from the left */
+}
+.row-reverse3 .content{
+    flex: 1;
+    max-width: auto;
+    padding-right: 40px; /* Add space between content and image */
+    text-align: left;
+}
+.row-reverse3 .content-section h2{
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.row-reverse3 .content-section p{
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.8;
+  text-align: left;
+  padding-right:40px;
+}
+.cta-section{
+    padding: 50px;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: -70px;
+    position: relative;
+    z-index: 1;
+
+}
+.cta-section h2{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cta-section p{
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+    text-align: center;
+}
+.site-button{
+    padding: 20px 40px;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer{
+    background-color:  hsl(192, 100%, 9%);
+    display:grid;
+    grid-template-columns: repeat(4, 2fr);
+    
+
+}
+.footer-logo{
+margin-top: 100px;
+height: 30px;
+width: 155px;
+display: flex;
+filter:brightness(0) invert(1);
+}
+.container6{
+    display:flex;
+}
