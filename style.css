@@ -189,6 +189,7 @@
   
   .footer-logo {
     margin-bottom: 2rem;
+    margin-top: 80px;
     filter: brightness(0) invert(1);
   }
   
@@ -197,6 +198,7 @@
     flex-wrap: wrap;
     gap: 4rem;
     margin-bottom: 3rem;
+    
   }
   
   .footer-info {
@@ -278,11 +280,6 @@
     .container {
       max-width: 900px;
     }
-
-    .footer-content {
-      grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
-      gap: 2rem;
-    }
   }
   
   @media screen and (max-width: 768px) {
@@ -345,76 +342,6 @@
     .copyright {
       text-align:center;
     }
-
-    /* General adjustments */
-    body {
-      font-size: 16px;
-    }
-
-    .container {
-      padding: 0 1rem;
-    }
-
-    /* Hero Section */
-    .hero {
-      flex-direction: column; /* Stack content vertically */
-      text-align: center; /* Center-align text */
-      gap: 2rem; /* Reduce gap between elements */
-    }
-
-    .hero-content h1 {
-      font-size: 1.8rem; /* Adjust heading size */
-    }
-
-    .hero-content p {
-      font-size: 1rem; /* Adjust paragraph size */
-    }
-
-    .hero-image {
-      margin-top: 1rem;
-    }
-
-    /* Feature Cards */
-    .feature-card,
-    .feature-card.reverse {
-      flex-direction: column; /* Stack content vertically */
-      text-align: center; /* Center-align text */
-      padding: 2rem 1rem; /* Adjust padding */
-      gap: 2rem; /* Reduce gap between elements */
-    }
-
-    .feature-image {
-      margin-bottom: 1rem;
-    }
-
-    /* Footer */
-    .footer {
-      padding: 2rem 1rem; /* Reduce padding */
-    }
-
-    .footer-content {
-      display: grid;
-      grid-template-columns: 1fr; /* Single column layout */
-      gap: 2rem; /* Add spacing between sections */
-      text-align: center; /* Center-align text */
-    }
-
-    .footer-logo {
-      margin: 0 auto 1rem; /* Center the logo */
-    }
-
-    .footer-links {
-      display: flex;
-      flex-direction: column; /* Stack links vertically */
-      gap: 1rem;
-    }
-
-    .footer-social {
-      justify-content: center; /* Center social icons */
-    }
-
-    .copyright {
-      text-align: center; /* Center-align copyright text */
-      margin-top: 1rem;
-    }
-  }
+  
+ 
+ }
